@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppModelo.MainPage"
+             
+             >
+
+    <StackLayout>
+        <Button x:Name="BotonAccion" 
+                Text="Mostrar modelo del dispositivo" 
+                Clicked="BotonAccion_Clicked" 
+                Margin="50"
+                Padding="5"
+                
+                HorizontalOptions="Center"
+                BackgroundColor="#EC6666"
+                ></Button>
+        <Label x:Name="lblInfo"
+               FontSize="Medium"
+               
+               />
+
+        
+    </StackLayout>
+
+</ContentPage>
